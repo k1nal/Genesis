@@ -1,0 +1,16 @@
+# Core dependencies for the Track 02: Beat the Bot agent system
+
+# HTTP client for API communication
+requests>=2.31.0
+
+# Streamlit dashboard
+streamlit>=1.28.0
+
+# Pandas for data visualization in dashboard
+pandas>=2.0.0
+
+# Laya decision model (optional - fallback mode works without it)
+laya>=0.1.0
+
+# Note: If laya is not available, the system will automatically use
+# the fallback simulation mode with context-aware probability distributions.
